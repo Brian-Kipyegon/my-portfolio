@@ -1,0 +1,22 @@
+.content-about {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about {
+    font-size: 30px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-about {
+        display: block;
+    }   
+    .about {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+}
