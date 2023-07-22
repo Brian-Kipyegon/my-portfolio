@@ -1,4 +1,6 @@
 import "../styles/Portfolio.css";
+import webconfhome from "../images/webconfhome.JPG";
+import coderunner from "../images/coderunner.JPG";
 
 export default function Portfolio() { 
 
@@ -26,7 +28,7 @@ export default function Portfolio() {
           <p className="tech-stack-item">Firebase</p>
           <p className="tech-stack-item">WebRTC</p>
         </div>
-        <img src="src\assets\webconfhome.JPG" alt="image" className="project-image" />
+        <img src={webconfhome} alt="image" className="project-image" />
       </div>
       <div className="project-card">
           <div className="title-tag">
@@ -50,7 +52,7 @@ export default function Portfolio() {
             <p className="tech-stack-item">Node.js</p>
             <p className="tech-stack-item">Firebase</p>
           </div>
-          <img src="src\assets\coderunner.JPG" alt="image" className="project-image" />
+          <img src={coderunner} alt="image" className="project-image" />
       </div>
     </div>
   )
