@@ -5,14 +5,15 @@ import coderunner from "../images/coderunner.JPG";
 export default function Portfolio() { 
 
   return (
-    <div className="content-portfolio">
+    <div className="content-portfolio" id="portfolio-section">
+      <h2 className="portfolio-title">Portfolio</h2>
       <div className="project-card">
         <div className="title-tag">
           <h3 className="project-title">WebConnect</h3>
-          <a href="https://github.com/Brian-Kipyegon">
+          <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/brian-kipyegon-a52a23225/">
+          <a target="_blank" rel="noreferrer" href="https://react-video-chat-v1.netlify.app/">
             <i className="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </div>
@@ -33,10 +34,10 @@ export default function Portfolio() {
       <div className="project-card">
           <div className="title-tag">
             <h3 className="project-title">CodeRunner</h3>
-            <a href="https://github.com/Brian-Kipyegon">
+            <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/brian-kipyegon-a52a23225/">
+            <a target="_blank" href="https://code-runner-web.netlify.app/" rel="noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>

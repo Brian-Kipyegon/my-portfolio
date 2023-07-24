@@ -3,7 +3,7 @@ import '../styles/Home.css';
 export default function Home() {
 
   return (
-    <div className="content-section">
+    <div className="content-section" id='home-section'>
       <h1 className='name-title'>Brian Kipyegon</h1>
       <p className='job-title'>Software Engineer</p>
       <p className="intro-statement">I build accessible, user-friendly software products and digital experiences for the web.</p>

@@ -1,4 +1,3 @@
-import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import '../App.css';
 
@@ -8,11 +7,10 @@ function Navbar() {
   // adding the states 
   const [isActive, setIsActive] = useState(false);
   const [activeLink, setActiveLink] = useState('home');
-  const navigation = useNavigate();
 
   useEffect(() => {
     const location = window.location.pathname;
-    setActiveLink(location.slice(1))
+    setActiveLink(location.slice(2))
   }, [])
 
   //add the active class
@@ -24,7 +22,6 @@ function Navbar() {
   const removeActive = (route) => {
     setActiveLink(route);
     setIsActive(false);
-    navigation(route);
   }
 
 
@@ -37,16 +34,16 @@ function Navbar() {
 
           <ul className={`navMenu ${isActive ? "active" : ''}`}>
             <li onClick={() => removeActive("home")} className={`${activeLink == "home" ? "current" : ""}`}>
-              <Link to="/" className={`navLink`}>Home</Link>
+              <a href="#home-section" className={`navLink`}>Home</a>
             </li>
             <li onClick={() => removeActive("about")} className={`${activeLink == "about" ? "current" : ""}`}>
-              <Link to="/about" className={`navLink`}>About</Link>
+              <a href="#about-section" className={`navLink`}>About</a>
             </li>
             <li onClick={() => removeActive("portfolio")} className={`${activeLink == "portfolio" ? "current" : ""}`}>
-              <Link to="/portfolio" className={`navLink`}>Portfolio</Link>
+              <a href="#portfolio-section" className={`navLink`}>Portfolio</a>
             </li>
             <li onClick={() => removeActive("contact")} className={`${activeLink == "contact" ? "current" : ""}`}>
-              <Link className={`navLink`}>Contact</Link>
+              <a href="#contact-section" className={`navLink`}>Contact</a>
             </li>
           </ul>
 

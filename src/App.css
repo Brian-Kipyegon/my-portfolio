@@ -13,18 +13,19 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
     font-size: 18px;
 }
 
 .navbar {
+    width: 100%;
     background-color: transparent;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 40px; 
     min-height: 70px;
 }
  
@@ -53,6 +54,10 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+}
+
+.hamburger {
+    display: none;
 }
   
 /* media queries */
