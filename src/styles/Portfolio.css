@@ -34,6 +34,7 @@
 
 .project-title {
     font-size: 35px;
+    font-weight: 300;
 }
 
 .title-tag a {
@@ -45,7 +46,7 @@
     font-size: 20px;
     display: flex;
     align-items: center;
-    gap: 10px
+    gap: 10px;
 }
 
 .tech-stack-item {
@@ -53,7 +54,7 @@
     padding: 5px;
     border: 1px solid rgb(0, 0, 0);
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 200;
     color: rgb(0, 0, 0);
 }
 
@@ -67,6 +68,10 @@
         width: 90%;
         margin-left: 2rem;
         margin-bottom: 20px;
+    }
+
+    .portfolio-title{
+        margin-left: 2rem;
     }
 
     .title-tag {

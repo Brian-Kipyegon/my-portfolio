@@ -9,7 +9,9 @@ export default function Portfolio() {
       <h2 className="portfolio-title">Portfolio</h2>
       <div className="project-card">
         <div className="title-tag">
-          <h3 className="project-title">WebConnect</h3>
+          <a target="_blank" rel="noreferrer" href="https://react-video-chat-v1.netlify.app/">
+            <h3 className="project-title">WebConnect</h3>
+          </a>
           <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
             <i className="fab fa-github"></i>
           </a>
@@ -33,7 +35,9 @@ export default function Portfolio() {
       </div>
       <div className="project-card">
           <div className="title-tag">
-            <h3 className="project-title">CodeRunner</h3>
+            <a target="_blank" href="https://code-runner-web.netlify.app/" rel="noreferrer">
+              <h3 className="project-title">CodeRunner</h3>
+            </a>
             <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
               <i className="fab fa-github"></i>
             </a>
