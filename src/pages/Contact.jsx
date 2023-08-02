@@ -18,8 +18,12 @@ export default function Contact() {
           <p><i className="fa-regular fa-envelope"></i><a href="mailto:kipyegon.c.brian@gmail.com">kipyegon.c.brian@gmail.com </a> </p>
           <p> <i className="fa fa-phone-square-alt"></i>  +254-724027844</p>
           <div className="social-icons">
-            <a href="https://github.com/Brian-Kipyegon"> <i className="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/in/brian-kipyegon-a52a23225/"> <i className="fab fa-linkedin"></i> </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
+              <i className="fab fa-github-square"></i>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brian-kipyegon-a52a23225/">
+              <i className="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
         <div className="form-container">

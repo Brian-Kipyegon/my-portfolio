@@ -31,7 +31,9 @@ export default function Portfolio() {
           <p className="tech-stack-item">Firebase</p>
           <p className="tech-stack-item">WebRTC</p>
         </div>
-        <img src={webconfhome} alt="image" className="project-image" />
+        <a target="_blank" rel="noreferrer" href="https://react-video-chat-v1.netlify.app/">
+          <img src={webconfhome} alt="image" className="project-image" />
+        </a>  
       </div>
       <div className="project-card">
           <div className="title-tag">
@@ -57,7 +59,9 @@ export default function Portfolio() {
             <p className="tech-stack-item">Node.js</p>
             <p className="tech-stack-item">Firebase</p>
           </div>
-          <img src={coderunner} alt="image" className="project-image" />
+          <a target="_blank" href="https://code-runner-web.netlify.app/" rel="noreferrer">
+            <img src={coderunner} alt="image" className="project-image" />
+          </a>
       </div>
     </div>
   )

@@ -37,6 +37,10 @@
     font-weight: 300;
 }
 
+.project-title:hover {
+    text-decoration: underline;
+}
+
 .title-tag a {
     font-size: 35px;
 }
