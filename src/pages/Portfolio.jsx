@@ -1,6 +1,7 @@
 import "../styles/Portfolio.css";
 import webconfhome from "../images/webconfhome.JPG";
 import coderunner from "../images/coderunner.JPG";
+import fifa_dashboard from "../images/fifa_dashboard.JPG";
 
 export default function Portfolio() { 
 
@@ -61,6 +62,34 @@ export default function Portfolio() {
           </div>
           <a target="_blank" href="https://code-runner-web.netlify.app/" rel="noreferrer">
             <img src={coderunner} alt="image" className="project-image" />
+          </a>
+      </div>
+      <div className="project-card">
+          <div className="title-tag">
+            <a target="_blank" href="https://fifa-match-analysis.onrender.com/" rel="noreferrer">
+              <h3 className="project-title">FIFA World Cup Match Analytics Dashboard</h3>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Brian-Kipyegon">
+              <i className="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://fifa-match-analysis.onrender.com/" rel="noreferrer">
+              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p className="project-description">
+            The FIFA World Cup Match Analytics Dashboard is a dynamic and interactive
+            web application developed using Python Flask and Plotly Dash, designed to
+            provide comprehensive insights into FIFA World Cup matches. This project
+            combines data visualization and web development to deliver an engaging 
+            platform for exploring match statistics for all FIFA World Cup matches.
+          </p>
+          <div className="tech-stack">
+            <p className="tech-stack-item">Python</p>
+            <p className="tech-stack-item">Flask</p>
+            <p className="tech-stack-item">Plotly Dash</p>
+          </div>
+          <a target="_blank" href="https://fifa-match-analysis.onrender.com/" rel="noreferrer">
+            <img src={fifa_dashboard} alt="image" className="project-image" />
           </a>
       </div>
     </div>
